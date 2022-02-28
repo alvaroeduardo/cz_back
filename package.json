@@ -4,7 +4,7 @@
   "description": "Back-end no site da Radio CrazzY",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon ."
+    "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/alvaroeduardo/cz_back#readme",
   "dependencies": {
+    "axios": "^0.26.0",
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "puppeteer": "^13.3.2"
