@@ -1,0 +1,28 @@
+{
+  "name": "cz_back",
+  "version": "1.0.0",
+  "description": "Back-end no site da Radio CrazzY",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaroeduardo/cz_back.git"
+  },
+  "author": "Álvaro Eduardo Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaroeduardo/cz_back/issues"
+  },
+  "homepage": "https://github.com/alvaroeduardo/cz_back#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "puppeteer": "^13.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
