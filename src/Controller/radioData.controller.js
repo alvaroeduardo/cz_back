@@ -21,6 +21,8 @@ module.exports = {
         let visu = await axios.get(`https://lella.ws/api/user?username=${convertData.locutor}`);
         let visuData = visu.data.figure;
 
-        return res.json({ convertData, visuData });
+        let visuConvert = `https://habbo.city/habbo-imaging/avatarimage?figure=${visuData}&direction=3&head_direction=3&gesture=sml&size=l`;
+
+        return res.json({ convertData, visuConvert });
     }
 }
